@@ -1,0 +1,110 @@
+/* *{
+        margin: 0;
+        padding: 0;
+    } */
+    .logo img{
+        width: 180px;
+        background-color: white;
+
+        /* Apply when margin 0 and padding is zero in body*/
+        /* margin-top: 5px; */ 
+    }
+    nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-family: 'Segoe UI';
+    }
+    .right ul{
+        display: flex;
+        gap: 34px;
+    }
+    .right ul li{
+        list-style: none;
+        /* display flex for method 2 */
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+    .first{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 23px;
+        margin: 70px;
+        font-family: sans-serif;
+    }
+    .first span{
+        font-size: 40px;
+    }
+    section span img{
+        width: 82px;
+        margin: 0px 23px;
+    }
+    .first p{
+        font-size: 18px;
+        width: 45vw;
+        text-align: center;
+    }
+    .btn{
+        background-color: aqua;
+        padding: 14px 12px;
+        margin: 12px 0px;
+        color: white;
+        border-radius: 6px;
+        border: none;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .btn a{
+        text-decoration: none;
+        color: white;
+    }
+    .second{
+        max-width: 65vw;
+        margin: auto;
+    }
+    .small{
+        font-size: 12px;
+    }
+    .green{
+        background-color: #5cb85c;
+    }
+    .item{
+        padding: 23px;
+        background-color: #f9f9f9;
+        border-radius: 12px;
+        font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+    }
+
+    .item-lang{
+        font-weight: 700;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 12px;
+    }
+    .download :nth-child(2){
+        font-size: 23px;
+    }
+    .download img{
+        padding: 0px 8px;
+    }
+    .download{
+        display: flex;
+        font-family: sans-serif;
+        align-items: center;
+        gap: 10px;
+    }
+
+   @media screen and (max-width: 1100px) {
+    .grid{
+        /* display: grid; */
+        grid-template-columns: 1fr;
+    }
+   } 
